@@ -40,4 +40,5 @@ enable_testing()
 # ビルド対象
 add_subdirectory(third_party/catch2)
 add_subdirectory(third_party/spdlog)
+add_subdirectory(src)
 add_subdirectory(test)

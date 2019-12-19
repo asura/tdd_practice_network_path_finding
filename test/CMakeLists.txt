@@ -7,10 +7,13 @@ include_directories(
 add_executable(
   Tester
   main.cpp
+  PathFinderTest.cpp
+  PathFinderTestsTexture.cpp
 )
 
 target_link_libraries(
   Tester
+  path_finder
   Catch2::Catch2
   spdlog::spdlog
 )
